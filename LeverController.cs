@@ -102,4 +102,8 @@ public class LeverController : MonoBehaviour
     {
         return currentRotation;
     }
+
+    // 🔧 PROPIEDADES NECESARIAS PARA ACCESO EXTERNO
+    public float MinRotationAngle => minRotationAngle;
+    public float MaxRotationAngle => maxRotationAngle;
 }
